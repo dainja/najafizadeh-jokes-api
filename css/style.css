@@ -1,0 +1,46 @@
+body{
+  background-color: #0A0603;
+  color: #fff;
+}
+
+.btn {
+  text-transform: uppercase;
+  line-height: 35px;
+}
+
+.btn-zlatan{
+  color: #fff;
+}
+
+.btn-chuck{
+  color: #000;
+}
+
+.container {
+  text-align: center;
+}
+
+.grid-item{
+  height: 100%;
+  width: 100%;
+}
+
+.grid-text{
+  font-size: 1.1rem;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.grid {
+  grid-template-columns: repeat(2,356px);
+  grid-template-rows: 100px 356px 100px 100px;
+  grid-gap: 22.66667px;
+  grid-column-gap: 100px;
+  justify-content: center;
+  display: grid;
+  overflow-x: hidden;
+}
