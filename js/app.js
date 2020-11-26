@@ -5,11 +5,11 @@ class Jokster {
     this.joker = joker;
 
     if (joker.includes('zlatan')) {
-      this.joker = 'https://yacdn.org/serve/http://www.zlatanjokes.site/joke';
+      this.url = 'https://yacdn.org/serve/http://www.zlatanjokes.site/joke';
     }
 
     if (joker.includes('chuck')) {
-      this.joker = 'https://api.chucknorris.io/jokes/random'
+      this.url = 'https://api.chucknorris.io/jokes/random'
     }
 
   }
@@ -18,7 +18,7 @@ class Jokster {
   generateJoke() {
 
     const request = new XMLHttpRequest;
-    request.open('GET', `${this.joker}`, true);
+    request.open('GET', `${this.url}`, true);
     request.send()
 
 
@@ -36,6 +36,7 @@ class Jokster {
 
       }
     }
+
 
 
   }
