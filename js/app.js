@@ -5,7 +5,7 @@ class Jokster {
     this.joker = joker;
 
     if (joker.includes('zlatan')) {
-      this.url = 'https://yacdn.org/serve/http://www.zlatanjokes.site/joke';
+      this.url = 'http://www.zlatanjokes.site/joke ';
     }
 
     if (joker.includes('chuck')) {
